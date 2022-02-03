@@ -1,0 +1,14 @@
+{
+  "name": "september_2021_ts_training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lesson6.js",
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

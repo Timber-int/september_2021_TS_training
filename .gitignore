@@ -1,0 +1,7 @@
+# Project exclude paths
+/interfaces/shapes.Actions.Interface.js
+/interfaces/user.interface.js
+/node_modules/
+/services/user.service.js
+/enum.js
+/lesson6.js

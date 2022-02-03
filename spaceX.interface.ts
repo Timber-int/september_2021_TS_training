@@ -23,12 +23,12 @@ interface IRocket {
 }
 
 interface IFirst_stage {
-    cores: [
-        {
-            flight: number,
-            core: ICore,
-        }
-    ]
+    cores: ISomeInterfaceCores[],
+}
+
+interface ISomeInterfaceCores {
+    flight: number,
+    core: ICore,
 }
 
 interface ICore {
@@ -37,13 +37,12 @@ interface ICore {
 }
 
 interface ISecond_stage {
-    payloads: [
-        payload: IPayload,
-    ]
+    payloads: ISomeInterfacePayloads[],
 }
 
-interface IPayload {
+interface ISomeInterfacePayloads {
     payload_type: string,
     payload_mass_kg: number,
     payload_mass_lbs: number,
 }
+

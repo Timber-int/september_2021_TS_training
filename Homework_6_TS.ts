@@ -94,7 +94,7 @@ function sum(a: number, b: number): number | null {
 // function showSum(a,b){
 //     console.log(a + b);
 // }
-function showSum(a: number, b: number) {
+function showSum(a: number, b: number): void {
     console.log(a + b);
 }
 
